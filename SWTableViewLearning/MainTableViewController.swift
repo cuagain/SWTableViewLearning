@@ -21,6 +21,7 @@ class MainTableViewController: UITableViewController {
         
         self.refreshControl =  UIRefreshControl()
         self.refreshControl?.tintColor = UIColor.greenColor()
+        self.refreshControl?.attributedTitle = NSAttributedString(string:"Loading...");
   
     }
 
