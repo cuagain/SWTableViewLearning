@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D378381919E253F20074A018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D378381819E253F20074A018 /* AppDelegate.swift */; };
-		D378381B19E253F20074A018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D378381A19E253F20074A018 /* ViewController.swift */; };
 		D378381E19E253F20074A018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D378381C19E253F20074A018 /* Main.storyboard */; };
 		D378382019E253F20074A018 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D378381F19E253F20074A018 /* Images.xcassets */; };
 		D378382319E253F20074A018 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D378382119E253F20074A018 /* LaunchScreen.xib */; };
 		D378382F19E253F30074A018 /* SWTableViewLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D378382E19E253F30074A018 /* SWTableViewLearningTests.swift */; };
+		D378383919E2551D0074A018 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D378383819E2551D0074A018 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		D378381319E253F20074A018 /* SWTableViewLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWTableViewLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D378381719E253F20074A018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D378381819E253F20074A018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D378381A19E253F20074A018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D378381D19E253F20074A018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D378381F19E253F20074A018 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D378382219E253F20074A018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D378382819E253F30074A018 /* SWTableViewLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWTableViewLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D378382D19E253F30074A018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D378382E19E253F30074A018 /* SWTableViewLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTableViewLearningTests.swift; sourceTree = "<group>"; };
+		D378383819E2551D0074A018 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D378381819E253F20074A018 /* AppDelegate.swift */,
-				D378381A19E253F20074A018 /* ViewController.swift */,
+				D378383819E2551D0074A018 /* MainTableViewController.swift */,
 				D378381C19E253F20074A018 /* Main.storyboard */,
 				D378381F19E253F20074A018 /* Images.xcassets */,
 				D378382119E253F20074A018 /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D378381B19E253F20074A018 /* ViewController.swift in Sources */,
+				D378383919E2551D0074A018 /* MainTableViewController.swift in Sources */,
 				D378381919E253F20074A018 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +339,7 @@
 				INFOPLIST_FILE = SWTableViewLearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +350,7 @@
 				INFOPLIST_FILE = SWTableViewLearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
